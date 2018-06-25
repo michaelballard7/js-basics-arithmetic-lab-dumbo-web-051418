@@ -15,4 +15,4 @@ const ageIsValid = Number.isInteger(currentAge)
 
 let randomNumber = Math.random(0,20)
 
-let randomInteger = Math.round(randomNumber)
+let randomInteger = randomNumber.round(1)
